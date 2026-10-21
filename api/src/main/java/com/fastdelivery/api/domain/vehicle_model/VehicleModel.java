@@ -1,4 +1,4 @@
-package com.fastdelivery.api.domain.pessoafisica;
+package com.fastdelivery.api.domain.vehicle_model;
 
 import java.util.UUID;
 
@@ -11,34 +11,20 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Table(name = "pessoafisica")
+@Table(name = "vehicle_model")
 @Entity
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class PessoaFisica {
+public class VehicleModel {
 	@Id
 	@GeneratedValue
 	private UUID id;
 	
-	private String document;
-	
 	private String name;
 	
-	private String address;
+	private String seatQuantity;
 	
-	private String state;
-	
-	private String city;
-	
-	private String postalcode;
-	
-	private String phoneNumber;
-	
-	private String cellNumber;
-	
-	private String contry;
-	
-
+	private float weight; 
 }
