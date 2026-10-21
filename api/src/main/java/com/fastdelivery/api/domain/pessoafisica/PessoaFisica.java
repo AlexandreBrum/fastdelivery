@@ -36,7 +36,7 @@ public class PessoaFisica {
 	
 	private String phoneNumber;
 	
-	private String cell;
+	private String cellNumber;
 	
 	private String contry;
 	
