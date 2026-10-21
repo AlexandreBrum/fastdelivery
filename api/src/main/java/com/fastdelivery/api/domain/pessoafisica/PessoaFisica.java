@@ -36,5 +36,7 @@ public class PessoaFisica {
 	
 	private String phoneNumber;
 	
+	private String cellNumber;
+	
 
 }
