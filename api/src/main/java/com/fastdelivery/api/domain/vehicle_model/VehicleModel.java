@@ -24,7 +24,7 @@ public class VehicleModel {
 	
 	private String name;
 	
-	private String seatQuantity;
+	private Integer seatQuantity;
 	
 	private float weight; 
 }
